@@ -1501,11 +1501,11 @@ function updateStatus(online) {
   const text = document.getElementById('status-text');
   
   if (online) {
-    badge.classList.remove('offline');
-    text.textContent = 'Онлайн';
+    badge.classList.remove('Online');
+    text.textContent = 'Online';
   } else {
-    badge.classList.add('offline');
-    text.textContent = 'Оффлайн';
+    badge.classList.add('Online');
+    text.textContent = 'Online';
   }
 }
 
